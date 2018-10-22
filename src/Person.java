@@ -17,5 +17,5 @@ public class Person {
     {
         return familyName;
     }
-    public void setFamn
+    public void setFamn 
 }
