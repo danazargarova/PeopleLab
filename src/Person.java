@@ -17,5 +17,11 @@ public class Person {
     {
         return familyName;
     }
-    public void setFamn 
+    public void setFamilyName(String familyName){
+        this.familyName = familyName;
+    }
+    public boolean equals(Person person)
+    {
+        if(this.firstName.equals(person.getFirstName()))
+    }
 }
