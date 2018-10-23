@@ -8,4 +8,13 @@ public class Teacher extends Person{
         Subject = subject;
         Title = title;
     }
+
+    public String getSubject() {
+        return Subject;
+    }
+
+    @Override
+    public String toString() {
+        return Title + "." + getFamilyName();
+    }
 }
