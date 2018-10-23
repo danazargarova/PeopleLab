@@ -1,6 +1,6 @@
 public class Person {
     private String firstName, familyName;
-    public Person(String firstName, String familyNamw)
+    public Person(String firstName, String familyName)
     {
         this.firstName = firstName;
         this.familyName = familyName;
