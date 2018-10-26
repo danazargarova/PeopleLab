@@ -20,5 +20,8 @@ public class Classroom {
         }
         return classAvg/students.length;
     }
+    public void printClass() {
+        System.out.println(teacher, getSubject(), students);
+    }
 
 }
