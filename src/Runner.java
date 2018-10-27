@@ -4,6 +4,6 @@ public class Runner {
         Student student1= new Student("Sage", "Basil", 2.0, 17, 12);
         Student student2= new Student("Dana", "White", 1.0, 17, 12);
         Teacher teacher= new Teacher("Nathan", "Levin", "APCS", "Mr.");
-        Classroom classroom = new Classroom("S", "s");
+        Classroom classroom = new Classroom("S", "");
     }
 }
