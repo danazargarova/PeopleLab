@@ -23,4 +23,7 @@ public class Classroom {
     public String printClass() {
         return printClass();
     }
+    public String toString() {
+        return teacher + " " + getAvg();
+    }
 }
