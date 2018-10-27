@@ -2,9 +2,9 @@ public class Classroom {
     private Student[] students;
     private Teacher teacher;
 
-    public Classroom(Student[] stus, Teacher teach) {
-        this.students = stus;
-        this.teacher = teach;
+    public Classroom(Student[] students, Teacher teacher) {
+        this.students = students;
+        this.teacher = teacher;
     }
 
     public String getSubject() {
@@ -20,8 +20,8 @@ public class Classroom {
         }
         return classAvg/students.length;
     }
-    public void printClass() {
-        System.out.println(teacher, sub, student);
+    public String printClass() {
+        return printClass()
     }
 
 }
