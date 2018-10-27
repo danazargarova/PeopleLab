@@ -21,7 +21,7 @@ public class Classroom {
         return classAvg/students.length;
     }
     public String printClass() {
-        return printClass()
+        return printClass();
     }
 
 }
