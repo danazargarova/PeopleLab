@@ -6,6 +6,6 @@ public class Runner {
         Teacher teacher= new Teacher("Nathan", "Levin", "APCS", "Mr.");
         String[] firstNames= {"Spray", "Sage", "Dana"};
         String[] lastNames= {"Tan", "Basil","White"};
-        String[] teach= {"Nathan","Adelizzi","Lin","Nair"}
+        String[] teach= {"Nathan","Adelizzi","Lin","Nair"};
     }
 }
