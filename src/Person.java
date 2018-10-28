@@ -5,24 +5,24 @@ public class Person {
         this.firstName = firstName;
         this.familyName = familyName;
     }
-    public String getFirstName()
+    public String getfirstName()
     {
         return firstName;
     }
-    public void setFirstName(String firstName)
+    public void setfirstName(String firstName)
     {
         this.firstName = firstName;
     }
-    public String getFamilyName()
+    public String getfamilyName()
     {
         return familyName;
     }
-    public void setFamilyName(String familyName){
+    public void setfamilyName(String familyName){
         this.familyName = familyName;
     }
     public boolean equals(Person person)
     {
-        if(this.firstName.equals(person.getFirstName())&& this.familyName.equals(person.getFamilyName()))
+        if(this.firstName.equals(person.getfirstName())&& this.familyName.equals(person.getfamilyName()))
         {
             return true;
         }
