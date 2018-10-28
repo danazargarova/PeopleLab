@@ -4,9 +4,8 @@ public class Runner {
         Student student1= new Student("Sage", "Basil", 2.0, 17, 12);
         Student student2= new Student("Dana", "White", 1.0, 17, 12);
         Teacher teacher= new Teacher("Nathan", "Levin", "APCS", "Mr.");
-        Student[] students = {student, student1, student2};
-        String[] firstNames ={"Spray", "Sage", "Dana"};
-        String[] lastNames = {"Tan", "Basil", "White"};
-        String[] teach= {"Nathan", "Lewis", "Adelizzi", "Ho", "Folwell"};
+        String[] firstNames= {"Spray", "Sage", "Dana"};
+        String[] lastNames= {"Tan", "Basil","White"};
+        String[] teach= {"Nathan","Adelizzi","Lin","Nair"}
     }
 }
