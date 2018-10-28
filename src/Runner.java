@@ -7,5 +7,6 @@ public class Runner {
         String[] firstNames= {"Spray", "Sage", "Dana"};
         String[] lastNames= {"Tan", "Basil","White"};
         String[] teach= {"Nathan","Adelizzi","Lin","Nair"};
+        Classroom classroom = new Classroom("1")
     }
 }
