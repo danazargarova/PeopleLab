@@ -20,9 +20,7 @@ public class Classroom {
      * @return The class subject
      */
     public String getSubject() {
-        String sub ="";
-        sub = teacher.getSubject();
-        return sub;
+       return getSubject();
     }
 
     /**
@@ -43,8 +41,5 @@ public class Classroom {
      */
     public String printClass() {
         return printClass();
-    }
-    public String toString() {
-        return teacher + " " + getAvg();
     }
 }
