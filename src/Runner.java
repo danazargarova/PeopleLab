@@ -10,9 +10,8 @@ public class Runner {
     }
 
     public static String randomfirstNames() {
-        return firstNames((int) (Math.random() * firstNames.length));
+        return firstNames[(int)(Math.random() * firstNames.length)];
     }
-
 
     public static void main(String[] args) {
         Teacher classTeacher = new Teacher(firstNames(), lastNames(), "Computer Science", "Mr");
