@@ -8,11 +8,15 @@ public class Runner {
     Student newStudent= new Student(randomfirstNames(), randomlastNames());
     return newStudent;
     }
+
+    public static String randomfirstNames() {
+        return firstNames((int)(Math.random()*firstNames.length));
+    }
 }
 
     public static void main(String[] args) {
             Teacher classTeacher = new Teacher(firstNames(),lastNames(),"Computer Science","Mr");
-            Student[] students = new Student[32];
+            Student[] students = new Student[6];
             for(int i = 0; i < students.length; i++){
                 students[i] = randomStudent();
 
