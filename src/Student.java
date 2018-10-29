@@ -22,8 +22,8 @@ public class Student extends Person {
         return GPA;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
+//    @Override
+//    public String toString() {
+//        return super.toString();
+//    }
 }

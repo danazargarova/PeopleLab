@@ -29,5 +29,10 @@ public class Person {
         else return false;
     }
 
+    public String toString() {
+        return familyName + ", " + firstName;
+    }
+
+
 }
 

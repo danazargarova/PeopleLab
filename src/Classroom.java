@@ -20,14 +20,14 @@ public class Classroom {
      * @return The class subject
      */
     public String getSubject() {
-       return getSubject();
+       return teacher.getSubject();
     }
 
     /**
      * This gets the class average of the students
      * @return Class average
      */
-    public double getAvg() {
+    public double classAverage() {
         double classAvg=0;
         for (int i=0; i < students.length; i++) {
             classAvg += students[i].getGPA();
@@ -39,7 +39,12 @@ public class Classroom {
      * Prints the details of the class
      * @return Class teacher, subject, and all the students of the class
      */
-    public String printClass() {
-        return printClass();
+    public void printClass() {
+        System.out.println(teacher);
+        System.out.println(teacher.getSubject());
+
+        for (int i=0; i<students.length; i++) {
+            System.out.println(students[i]);
+        }
     }
 }
