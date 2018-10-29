@@ -36,6 +36,6 @@ public class Runner {
         Student newStudent = new Student(randomfirstNames(), randomfamilyNames(), Math.random()*2+2, 17, 11);
         return newStudent;
     }
-i like turtles
+
 
 }
