@@ -18,6 +18,7 @@ public class Runner {
         return firstNames[(int) (Math.random() * firstNames.length)];
     }
 
+
     public static String randomfamilyNames() {
         return familyNames[(int) (Math.random() * firstNames.length)];
     }
