@@ -6,7 +6,7 @@ public class Runner {
 
     public static String [] period9;
 
-    public static void classmaker
+    public static void classmaker()
     {
         for (int i=0, i<=30, i++){
 
